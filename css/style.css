@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Upright', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header,
+footer,
+nav,
+article,
+main {
+    display: block;
+}
+
+.promo {
+    background: url(../img/bg_promo.png) no-repeat center / cover;
+    height: 150vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.middle_header {
+    display: flex;
+    gap: 30px;
+}
+
+.right_header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_header a {
+    font-family: 'Cormorant Upright';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+a:hover,
+.page_promo a:hover {
+    color: wheat;
+}
+
+a:active,
+.page_promo a:active {
+    color: cornsilk;
+}
+
+.tag_promo {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 50px;
+    height: 0;
+}
+
+.tag_promo a {
+    display: inline-flex;
+    transform: rotate(-90deg);
+    text-decoration: none;
+    color: azure;
+    width: 10px;
+}
+
+.tag_promo a:hover {
+    color: #DCCA87;
+}
+
+.pic_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+    letter-spacing: 10px;
+}
+
+.page_promo {
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 5px;
+    padding-bottom: 500px;
+    margin: 340px 480px;
+}
+.page_promo a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    gap: 50px;
+}
+
+
+.reservation {
+    background: black;
+    height: 140vh;
+}
+.logo_reservation {
+    display: flex;
+    justify-content: flex-end;
+}
+.logo_reservation img {
+    padding: 50px 0;
+}
+.reservation_box {
+    height: 466px;
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    color: #FFFFFF;
+}
+.reservation_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.reservation_text h6 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+}
+.reservation_text h4 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    color: #DCCA87;
+}
+.reservation_text img {
+    padding-bottom: 10px;
+}
+.reservation_input {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    
+}
