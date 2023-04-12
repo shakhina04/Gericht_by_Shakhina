@@ -179,3 +179,732 @@ h1 {
     gap: 30px;
     
 }
+.reservation_input {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+select {
+    background: #0C0C0C;
+    color: aliceblue;
+    border: 1px solid #DCCA87;
+    width: 200px;
+    height: 35px;
+    font-size: normal;
+    font-family: 'Cormorant Upright';
+}
+
+option {
+    color: aliceblue;
+    background: black;
+    font-family: 'Cormorant Upright';
+}
+
+input {
+    background: #0C0C0C;
+    color: aliceblue;
+    width: 180px;
+    height: 35px;
+    border: 1px solid #DCCA87;
+}
+
+select:hover,
+input:hover {
+    background-color: #DCCA87;
+}
+
+
+button {
+    background-color: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+}
+
+.btn_reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+.btn_ab_us {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+
+
+button:hover {
+    background-color: #ffc800;
+}
+
+button:active {
+    background-color: #ffa200;
+}
+
+.about_us_box {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 100px;
+}
+
+.about_us_minibox {}
+
+.about_us {
+    background: url(../img/bg_promo.png) no-repeat center / cover;
+    height: 180vh;
+}
+
+.logo_about_us {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 80px;
+}
+
+.ab_us_text {}
+
+.ab_us_text h3 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 12px 0 10px 0;
+}
+
+.ab_us_text h2 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #DCCA87;
+    padding-bottom: 30px;
+}
+
+.ab_us_text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 523px;
+    color: #AAAAAA;
+}
+
+.btn_ab_us {
+    margin-top: 30px;
+}
+
+.poison {
+    background: #000;
+    height: 150vh;
+}
+
+.poison_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.poison_text h6 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.poison_text h5 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #DCCA87;
+    padding-bottom: 50px;
+}
+
+.poison_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.poison_box img {
+    border: 1px solid #DCCA87;
+    object-fit: cover;
+}
+
+.poison_item {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.poison_item:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(220, 202, 135, 0.2);
+    opacity: 0;
+    transition: all 4.s ease;
+    content: ' ';
+}
+
+.poison_item:hover:before {
+    opacity: 1;
+}
+
+.poison_drinks {
+    position: absolute;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    left: 130px;
+    top: 210px;
+    color: #FFFFFF;
+    display: block;
+    transform: translateY(30px);
+    transition: transform .4s ease;
+}
+
+.poison_item:hover .poison_drinks {
+    transform: translateY(0);
+}
+
+.happy_hours {
+    background: url(../img/happy_hours.png) no-repeat center / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy_hours h3 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    color: #DCCA87;
+    padding-bottom: 30px;
+}
+
+.happy_text p {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.menu {
+    background: black;
+    height: 200vh;
+}
+
+.inner_menu_box {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_text h6 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.menu_text h4 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #DCCA87;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.wine {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.menu_item a {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #DCCA87;
+    text-decoration: none;
+}
+
+.menu_item a:hover {
+    color: #ffa200;
+}
+
+.menu_item p {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 0px;
+}
+
+.menu_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px 30px;
+}
+
+.one img {
+    width: 100px;
+    height: 2px;
+}
+
+.one h2 {
+    padding-bottom: 10px;
+}
+
+.menu_item h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #AAAAAA;
+    padding-bottom: 40px;
+}
+
+.menu_item p {
+    display: flex;
+    justify-content: center;
+}
+
+.wine_div {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.menu_logo {
+    padding-top: 50px;
+}
+
+
+.find_us {
+    background: url(../img/bg_promo.png) no-repeat center / cover;
+    height: 130vh;
+}
+
+.find_us_text {}
+
+.find_us_text h2 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.find_us_text img {}
+
+.find_us_text h3 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #DCCA87;
+    padding-bottom: 50px;
+}
+
+.find_us_text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+    padding-bottom: 50px;
+}
+
+.find_us_text h4 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #DCCA87;
+    padding-bottom: 15px;
+}
+
+.find_us_text h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.btn_find_us {
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+.find_us_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    gap: 100px;
+}
+
+.box-1 {
+    width: 220px;
+    height: 220px;
+    background-color: #DCCA87;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    transition: .4s ease;
+}
+
+.box-2 {
+    width: 220px;
+    height: 220px;
+    background-color: #DCCA87;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: .4s ease;
+}
+
+.find_us_image {
+    position: relative;
+}
+
+.find_us_image img {
+    position: relative;
+
+}
+
+.find_us_image:hover .box-1 {
+    bottom: -10px;
+    left: -20px;
+}
+
+.find_us_image:hover .box-2 {
+    top: -20px;
+    right: -20px;
+}
+
+.newsletter {
+    background: black;
+    height: 100vh;
+    display: flex;
+
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.subscribe h6 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.subscribe img {
+    padding-bottom: 10px;
+
+}
+
+.subscribe h4 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #DCCA87;
+    padding-bottom: 25px;
+}
+
+.subscribe p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.logo_newsletter {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -221px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+}
+
+.subscribe_btn {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0C0C0C;
+    padding: 10px 30px;
+
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.scroll_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 5px;
+}
+
+
+footer {
+    background: #040404;
+    height: 80vh;
+}
+
+.footer_box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    padding-top: 80px;
+
+
+}
+
+.footer_item_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_item_middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_item_middle a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer_logo a {
+    font-family: 'Cormorant Upright';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 44px;
+    padding-bottom: 50px;
+
+}
+
+.footer_logo {
+    padding-bottom: 10px;
+}
+
+.footer_item_middle p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.footer_middle_logo {
+    display: flex;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.footer_item_left a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #F5EFDB;
+    text-decoration: none;
+}
+
+.footer_logo a {
+    font-family: 'Cormorant Upright';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+a:hover,
+.page_promo a:hover {
+    color: wheat;
+}
+
+a:active,
+.page_promo a:active {
+    color: cornsilk;
+}
+
+.footer_item_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_item_right h3 {
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #F5EFDB;
+    padding-top: -55px;
+}
+
+.footer_item_right p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #AAAAAA;
+    padding: 10px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #AAAAAA;
+}
