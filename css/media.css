@@ -1,0 +1,22 @@
+@media (max-width:915px) {
+    .right_header {
+        display: none;
+    }
+
+    .tag_promo {
+        display: none;
+    }
+
+    .page_promo {
+        display: flex;
+        text-align: center;
+        gap: 5px;
+        
+    }
+
+
+    .page_promo a:hover {
+        color: burlywood;
+        
+    }
+}
